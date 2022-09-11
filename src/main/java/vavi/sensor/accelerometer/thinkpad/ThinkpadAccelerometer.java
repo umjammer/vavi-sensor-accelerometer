@@ -47,7 +47,7 @@ public class ThinkpadAccelerometer implements Accelerometer {
 
     static {
         try {
-            System.loadLibrary("SensorWrapper");
+            System.loadLibrary("accelerometer");
         } catch (Exception e) {
             throw (RuntimeException) new IllegalStateException().initCause(e);
         }
