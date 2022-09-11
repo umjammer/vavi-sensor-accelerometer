@@ -11,7 +11,7 @@
 
 
 /**
- * ‰Á‘¬“x\‘¢‘Ì
+ * åŠ é€Ÿåº¦æ§‹é€ ä½“
  */
 struct ShockData {
     int status;
