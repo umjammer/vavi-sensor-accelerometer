@@ -52,7 +52,7 @@ public class MacbookAccelerometer implements Accelerometer {
 
     static {
         try {
-            System.loadLibrary("SmsWrapper");
+            System.loadLibrary("accelerometer");
         } catch (Exception e) {
             throw new IllegalStateException(e);
         }
