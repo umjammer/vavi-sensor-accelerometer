@@ -6,12 +6,11 @@
 
   <groupId>vavi</groupId>
   <artifactId>vavi-sensor-accelerometer</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.2</version>
 
   <distributionManagement>
     <repository>
       <id>github</id>
-      <name>GitHub umjammer Apache Maven Packages</name>
       <url>https://maven.pkg.github.com/umjammer/vavi-sensor-accelerometer</url>
     </repository>
   </distributionManagement>
@@ -230,7 +229,7 @@
       <dependency>
         <groupId>org.junit</groupId>
         <artifactId>junit-bom</artifactId>
-        <version>5.9.0</version>
+        <version>5.9.1</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
